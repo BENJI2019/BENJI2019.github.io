@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://benji2019.github.io</id>
     <title>HARU学术博客</title>
-    <updated>2020-11-18T04:21:53.834Z</updated>
+    <updated>2020-11-18T04:39:06.556Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://benji2019.github.io"/>
     <link rel="self" href="https://benji2019.github.io/atom.xml"/>
@@ -59,7 +59,7 @@
 <p>Training on dataset with lots of features and learn useful properties of the structure of this dataset. In the context of deep learning, we usually want to learn the entire probability distribution that generated a dataset.(This means we can know how this dataset generated), whether explicitly（显式地） as in density estimation（密度估计） or implicitly（隐式地）for tasks like synthesis or denoising, like clustering, which consists of diving the dataset into clusters of similar examples.</p>
 <h4 id="supervised-learning-algorithm"><strong>Supervised Learning Algorithm</strong></h4>
 <p>Experience a dataset containing features, but each example is alse associated with a label or target.</p>
-<h4 id="important"><strong>Important</strong></h4>
+<h4 id="important">🚩<strong>Important</strong></h4>
 <p>Unsupervised learning and supervised learning are not formally defined terms（术语）.</p>
 <p>For example, unsupervised learning pretend to learn the joint distribution <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">p(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">p</span><span class="mopen">(</span><span class="mord mathdefault">x</span><span class="mclose">)</span></span></span></span>, which can also be decomposed as</p>
 <p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>p</mi><mo>(</mo><mi>x</mi><mo>)</mo><mo>=</mo><munderover><mo>∏</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></munderover><mi>p</mi><mo>(</mo><msub><mi>x</mi><mi>i</mi></msub><mi mathvariant="normal">∣</mi><msub><mi>x</mi><mn>1</mn></msub><mo separator="true">,</mo><msub><mi>x</mi><mn>2</mn></msub><mo separator="true">,</mo><mo>…</mo><mo>…</mo><mo separator="true">,</mo><msub><mi>x</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">p(x)=\prod^n_{i=1}p(x_i|x_1,x_2,……,x_{i-1})
