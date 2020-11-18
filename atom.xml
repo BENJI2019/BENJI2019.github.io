@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://benji2019.github.io</id>
     <title>HARU学术博客</title>
-    <updated>2020-11-18T02:06:23.573Z</updated>
+    <updated>2020-11-18T02:08:00.904Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://benji2019.github.io"/>
     <link rel="self" href="https://benji2019.github.io/atom.xml"/>
@@ -10,4 +10,64 @@
     <logo>https://benji2019.github.io/images/avatar.png</logo>
     <icon>https://benji2019.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, HARU学术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Towards spike-based machine intelligence with neuromorphic computing]]></title>
+        <id>https://benji2019.github.io/post/towards-spike-based-machine-intelligence-with-neuromorphic-computing/</id>
+        <link href="https://benji2019.github.io/post/towards-spike-based-machine-intelligence-with-neuromorphic-computing/">
+        </link>
+        <updated>2020-11-15T09:24:04.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>[Kaushik Roy](javascript:😉,</li>
+<li>[Akhilesh Jaiswal](javascript:😉 &amp;</li>
+<li>[Priyadarshini Panda](javascript:😉</li>
+</ul>
+<p><strong>volume 575</strong>, pages607–617(2019)</p>
+<p><a href="https://www.nature.com/articles/s41586-019-1677-2#citeas">Cite this article</a></p>
+<h2 id="abstract">Abstract</h2>
+<p>此文章从算法和硬件两个方面来回顾基础的学习和硬件框架，讨论了主要面临的挑战和未来的方向，并重点放在算法-硬件框架上。</p>
+<h2 id="main">Main</h2>
+<p>首先介绍了为什么要研究类脑计算</p>
+<ol>
+<li>今天，科学家们认为脑就像一个计算机，神经网络的兴起确实让人看到了效率的大幅提高，但一个问题是能耗</li>
+<li>大脑完成这么多高效的活动只需要20W，而一个标准计算机仅仅完成识别动作就要250W，这源于脑的生物特性：广泛连接、结构化功能组织的层级和基于时间的神经元和突触</li>
+<li>神经元是脑的基本计算和存储单元，它传递spike来进行信息传递，spike是时间序列的，离散的，降低能耗的同时，可以更大程度利用时间信息。</li>
+</ol>
+<figure data-type="image" tabindex="1"><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41586-019-1677-2/MediaObjects/41586_2019_1677_Fig1_HTML.png" alt="Fig. 1" loading="lazy"></figure>
+<blockquote>
+<p><strong>a</strong>, A schematic of the organizational principles of the brain. The intertwined network of neurons and synapses with temporal spike processing enables rapid and efficient flow of information between different areas. <strong>b</strong>, A deep convolutional neural network performing objection detection on an image. These networks are multi-layered and use synaptic storage and neuronal nonlinearity that learn broad representations about the data. After training using backpropagation<a href="https://www.nature.com/articles/s41586-019-1677-2#ref-CR12">12</a>, the features learned at each layer show interesting patterns. The first layer learns general features such as edges and colour blobs. As we go deeper into the network, the learned features become more specific, representing object parts (such as the eyes or nose of the dog) to full objects (such as the face of the dog). Such generic-to-specific transition is representative of the hierarchical arrangement of the visual cortex. <strong>c</strong>, A state-of-the-art silicon computing ecosystem. Broadly, the computing hierarchy is divided into processing units and memory storage. The physical separation of the processing unit and the memory hierarchy results in the well known ‘memory wall bottleneck’<a href="https://www.nature.com/articles/s41586-019-1677-2#ref-CR94">94</a>. Today’s deep neural networks are trained on powerful cloud servers, yielding incredible accuracy although incurring huge energy consumption.</p>
+</blockquote>
+<h3 id="nowadays">Nowadays：</h3>
+<p>现在，基于脑机制的神经网络涌现，并且取得了良好的效果，如modern deep-learning networks(DLNs)就是基于人脑层次结构和神经突触框架的启发，但是这种神经网络的硬件基本是硅晶体管硬件计算系统。</p>
+<h3 id="questions">Questions：</h3>
+<p>人脑的计算原理和硅基计算机有鲜明的区别：</p>
+<ul>
+<li>人脑是存算一体的（计算在神经元，存储在突触），计算机是计算和存储分离的</li>
+<li>人脑中大量存在三维连通性，而计算机硬件多为二维连接</li>
+<li>晶体管主要构建确定性布尔电路开关，和人脑基于脉冲的事件驱动随即计算不同</li>
+</ul>
+<p>尽管如此，在当前的深度学习革命中，硅基计算平台（例如图像处理单元（GPU）云服务器）已成为一个重要的贡献因素。</p>
+<p>但是，使得“通用智能”（包括基于云服务器到边缘设备）无法实现的主要瓶颈是巨大的能耗和吞吐量需求。例如，在一个由典型的2.1Wh电池供能的嵌入式智能玻璃处理器（smart-glass processor）上运行深度网络，就会让处理器在25分钟内将电池消耗殆尽。</p>
+<p>在人脑的指引下，通过脉冲驱动通信从而实现了神经元-突触计算的硬件系统将可以实现节能型机器智能。神经形态计算始于20世纪80年代晶体管仿照神经元和突触的功能运作（图2），之后其迅速演化到包括事件驱动的计算本质（离散的“脉冲”人造物）。最终，在21世纪初期，这种研究努力促进了大规模神经形态芯片的出现。</p>
+<h3 id="main-discussion">Main Discussion</h3>
+<h4 id="intelligencealgorithmic">Intelligence（algorithmic）</h4>
+<p>不同的SNN学习机制（基于脉冲或梯度的监督学习和非监督学习机制），重点讨论基于时空事件的表征。大量讨论集中在时间和相关应用领域</p>
+<h4 id="computationhardware">Computation（hardware）</h4>
+<p>analog computing（模拟计算），数字神经运动系统，都超越了当前的冯诺依曼结构。</p>
+<h4 id="combination">Combination</h4>
+<p>最后，我们将讨论算法的硬件协同设计前景，说明算法具有用于对抗硬件漏洞的鲁棒性，可以实现能耗和精度之间的最佳平衡。</p>
+<h2 id="algorithmic-outlook">Algorithmic outlook</h2>
+<h3 id="spiking-neural-networks">Spiking neural networks</h3>
+<p>神经网络分成三代：</p>
+<ul>
+<li>McCulloch–Pitt感知机，它执行阈值运算并输出数字（1、0）。基于sigmoid单元或修正线性单元（ReLU）</li>
+<li>第二代神经元单元增加了连续非线性，使其能够计算一组连续的输出值。第一代和第二代网络之间的非线性升级在扩展神经网络向复杂应用和更深度的实现方面起着关键作用。</li>
+<li>第三代神经网络主要使用“整合放电”（integrate-and-fire）型尖峰神经元，通过脉冲交换信息</li>
+</ul>
+<p><strong>第二代和第三代的主要区别就是：</strong></p>
+<ol>
+<li>SNN是二进制，所以只在有信号来的时候才处于活跃状态，更节能，DLN无论何时都处于活跃状态。</li>
+<li>SNN输入值只有0和1，也减少了很多数学上的点积运算。</li>
+</ol>
+]]></content>
+    </entry>
 </feed>
