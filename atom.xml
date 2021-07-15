@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://benji2019.github.io</id>
     <title>HARU学术博客</title>
-    <updated>2021-07-15T01:13:51.785Z</updated>
+    <updated>2021-07-15T05:55:51.197Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://benji2019.github.io"/>
     <link rel="self" href="https://benji2019.github.io/atom.xml"/>
@@ -10,6 +10,38 @@
     <logo>https://benji2019.github.io/images/avatar.png</logo>
     <icon>https://benji2019.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, HARU学术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[【文献阅读】情绪对学习成就的影响]]></title>
+        <id>https://benji2019.github.io/post/qing-xu-dui-xue-xi-cheng-jiu-de-ying-xiang/</id>
+        <link href="https://benji2019.github.io/post/qing-xu-dui-xue-xi-cheng-jiu-de-ying-xiang/">
+        </link>
+        <updated>2021-07-15T05:20:56.000Z</updated>
+        <content type="html"><![CDATA[<p>《The Impact of Emotions on Learning and Achievement: Torwards a Theory of Cognitive/Motivational Mediators》</p>
+<p>作者：Reinhard Pekrun<br>
+文章链接：https://doi.org/10.1111/j.1464-0597.1992.tb00712.x</p>
+<p>文章认为，情绪对学业成绩的影响是受以下两种因素的影响：</p>
+<ul>
+<li>认知机制种的信息处理和检索能力，情绪注意力需求</li>
+<li>内在或外在的学习任务奖励机制</li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<p>文章表示，学业成绩受各种因素的影响，包括学习、家庭、社会的环境等，但情绪因素之前一直被忽略。<br>
+在研究情绪因素时，学生面临的最广泛的情绪就是考试焦虑，除教育领域之外，也有一些关于积极情绪与消极情绪对学业成绩的影响。<br>
+但总的来说，他们只是一部分情绪的研究，没有一个完整的理论。</p>
+<h2 id="情绪的分类和功能">情绪的分类和功能</h2>
+<h3 id="情绪的功能是什么">情绪的功能是什么</h3>
+<p>从进化学角度，情绪是为了让更高级的有机体，为了生存和使用环境做出更快、更强烈、更灵活的反应。</p>
+<ul>
+<li>存储和检索信息</li>
+<li>信息处理策略</li>
+<li>调用注意力资源</li>
+<li>内在任务动机</li>
+<li>外在任务动机</li>
+</ul>
+<h2 id="认知影响">认知影响</h2>
+<h3 id="存储和检索信息">存储和检索信息</h3>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【机器学习基础】01 Learning Algorithms]]></title>
         <id>https://benji2019.github.io/post/ji-qi-xue-xi-ji-chu-01-learning-algorithms/</id>
